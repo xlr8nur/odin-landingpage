@@ -76,7 +76,8 @@
     <div class="tag">
       <p>Rabbits are awesome</p>
     </div>
-    <div><p>&copy; xlr8nur <script type="text/JavaScript"> var theDate=new Date() document.write(theDate.getFullYear()) </script></p></div>
+    <div><p>&copy; <span id="year"></span> xlr8nur </p></div>
+    <script>document.getElementById("year").innerHTML = (new Date().getFullYear());</script>
   </footer>
 </body>
 </html>

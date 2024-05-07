@@ -1,2 +1,2 @@
 # odin-landingpage
-odin #2 assignment
+Practicing my CSS skills, simple landing page. 
